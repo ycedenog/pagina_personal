@@ -1,0 +1,172 @@
+:root {
+    --fondo: #121212;
+    --color-title: #191919;
+    --fondo-gradient: linear-gradient(to right, #eddd85, #a766e3, #9fdefc);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Fraunces', serif;
+    background-color: var(--fondo);
+    color: white;
+}
+
+header {
+    display: flex;
+}
+
+.header_title {
+    font-size: 7rem;
+    background: linear-gradient(to right, #eddd85, #a766e3, #9fdefc);
+    border-radius: 24px;
+    align-self: center;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.imagen {
+    width: 300px;
+    height: 300x;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.main_firstsection {
+    display: flex;
+    align-items: center;
+}
+
+.main_personaldata {
+    background-color: var(--color-title);
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px;
+    border-radius: 35px;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(#eddd85, #a766e3, #9fdefc);
+    margin: 30px;
+
+}
+
+.main_personaldata_list {
+    list-style: none;
+}
+
+.main_personaldata_Linkedin a {
+    text-decoration: none;
+}
+
+.main_personaldata_Github a {
+    text-decoration: none;
+}
+
+.main_personaldata_Linkedin a img {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.main_personaldata_Github a img {
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+}
+
+.main_education {
+    background-color: var(--color-title);
+    font-size: 2rem;
+    text-align: left;
+    padding: 25px;
+    border-radius: 35px;
+    margin: 30px;
+    width: 840px;
+}
+
+.main_education_school {
+    color: #eddd85;
+}
+
+.main_education_highschool {
+    color: #af79e0;
+}
+
+.main_education_university {
+    color: #9fdefc;
+}
+
+.main_secondsection {
+    display: flex;
+}
+
+
+
+.main_thirdsection {
+    display: flex;
+}
+
+.main_prices {
+    background-color: #191919;
+    border-radius: 35px;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 30px;
+    text-align: justify;
+    width: 500px;
+}
+
+.main_prices_title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #bb92e0;
+}
+
+.main_curses_table {
+    text-align: center;
+}
+
+.main_curses_title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #f5e89f;
+}
+
+.main_curses {
+    background-color: #191919;
+    border-radius: 35px;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.footer_references {
+    background-color: #191919;
+    border-radius: 35px;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.footer_references_title {
+    background: linear-gradient(to right, #eddd85, #a766e3, #9fdefc);
+    font-size: 3.5rem;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.footer_references_list {
+    list-style: none;
+}
+
+.footer_references_list li {
+    padding: 10px;
+    padding-left: 20px;
+}
